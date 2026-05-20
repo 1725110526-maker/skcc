@@ -21,4 +21,5 @@ class LibroB:
         print(f"Voz{self.voz}")
         print(f"Cubierta{self.cubierta}")
         print(f"Paratextos{self.paratextos}")
-HarryP = LibroB("")
+HarryP = LibroB("harry potter", "rigido","fisico","4","672",
+                "sin indice","ficcion","sin voz","sin cubierta","dedicatoria")
