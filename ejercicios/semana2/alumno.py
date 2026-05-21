@@ -21,5 +21,17 @@ class Alumno:
         print(f"Talla_pie{self.talla_pie}")
         print(f"Alergias{self.alergias}")
         print(f"No_pie{self.no_pie}")
+
+    def estudiar(self):
+        print("Esta estudiando")
+    def tomar_cafe(self):
+        print("Toma cafe para poder estudiar")
+    def caminar(self):
+        ("Camina para poder llegar a la univerisad")
+    def hacer_tarea(self):
+        print("Realiza su tarea para poder tener buena nota")
+    def rendir_examen(self):
+        print("realizo bien su examen")
+
 carlos= Alumno("Carlos","19 años","11 de diciembre 2006","1.70","58kg",
                "cafe oscuro","delgada,","6","penicilina","2 pies")
