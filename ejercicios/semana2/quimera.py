@@ -21,5 +21,17 @@ class Quimera:
         print(f"Agilidad {self. agilidad}")
         print(f"Grosor {self.grosor}")
         print(f"Pelaje {self.pelaje}")
+
+    def lanzar(self):
+        print("Lanza aliento de fuego")
+    def embestida(self):
+        print("Ataca con rudeza")
+    def morder(self):
+        ("Activa el veneno de sus colmillos al morder")
+    def cambiar(self):
+        print("Cambia la forma de ataque")
+    def soltar(self):
+        print("Tiene complejo de canjuro") 
+
 quimera1 = Quimera("Negro con rojo", "100kg", "1.5m", "Enorme", "Femenino",
                    "Feroz", "1000N", "100%", "15cm", "Suave")

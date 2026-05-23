@@ -11,6 +11,18 @@ class Transporte:
         self.precio = precio
         self.frecuencia = frecuencia
         self.ruta = ruta
+
+    def avance(self):
+        print("Avanza para que llegues a tu destino")
+    def frena(self):
+        print("Para que no choque")
+    def gira(self):
+        ("Para irse por las curvas")
+    def impacto(self):
+        print("Ijoles ya choco")
+    def control(self):
+        print("Control del volante para que no vuelvan a chocar") 
+
         print(f"Modo {self.modo}")
         print(f"Operador {self.operador}")
         print(f"Capacidad {self.capacidad}")

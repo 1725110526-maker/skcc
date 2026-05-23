@@ -21,5 +21,17 @@ class Perro:
         print(f"Temperamento {self.temperamento}")
         print(f"Fuerza de Mordedura {self.fuerza_de_mordedura}")
         print(f"Apariencia {self.apariencia}")
+
+    def ladrar(self):
+        print("Ladra cuando se asusta")
+    def comer(self):
+        print("Come para tener energia")
+    def dormir(self):
+        ("Por que comio mucho y toca descansar ")
+    def jugar(self):
+        print("Juega para no estar gordo")
+    def ayuda(self):
+        print("Hay perros de ayuda para ciegos") 
+           
 perro_enano = Perro("35cm", "Marron", "Puggle", "10kg", "4",
                     "2", "Negro", "Amigable", "100PSI", "Liso")

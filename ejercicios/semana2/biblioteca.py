@@ -21,5 +21,17 @@ class LibroB:
         print(f"Voz{self.voz}")
         print(f"Cubierta{self.cubierta}")
         print(f"Paratextos{self.paratextos}")
+
+    def acomodo_libros(self):
+        print("Se acomodan los libros que desacomodas")
+    def inventario(self):
+        print("Llevan un invenrtario de los libros que tienen")
+    def prestamos(self):
+        ("Si quieres un libro te lo presta")
+    def inscripciones(self):
+        print("Te tienes que inscribir para porder llevarte un libro")
+    def clasificacion(self):
+        print("Clasifican los libros por genero")
+
 HarryP = LibroB("harry potter", "rigido","fisico","4","672",
                 "sin indice","ficcion","sin voz","sin cubierta","dedicatoria")

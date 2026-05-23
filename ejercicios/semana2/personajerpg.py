@@ -21,6 +21,18 @@ class Personaje_rpg:
         print(f"Altura {self.altura}")
         print(f"Peso {self.peso}")
         print(f"Equipo {self.equipo}")
+
+    def recibirdanio(self):
+        print("Los enemigos le disparan")
+    def atacar(self):
+        print("Se defiende de los enemigos")
+    def activarcamuflaje(self):
+        ("Para poder escapar")
+    def usaritem(self):
+        print("Para usar habilidades")
+    def activarposicion(self):
+        print("Para que sus aliados sepan donde esta") 
+   
 ghost= Personaje_rpg("Sobresaliente", "Alta", "Maestro", "Extrema", "Robusto",
                      "Aguda", "Excepcional", "1.89cm", "90-100kg", "Mascara de calabera")
 

@@ -21,5 +21,16 @@ class Mesa:
         print(f"Portabilidad {self.portabilidad}")
         print(f"Soporte {self.soporte}")
         print(f"No. Patas {self.no_patas}")
+
+    def comer(self):
+        print("Por si no tienes escritorio usas la mesa")
+    def comer(self):
+        print("Para que no comas en el piso usas la mesa")
+    def hacer_comer(self):
+        ("Para que piques la verdura")
+    def platicar(self):
+        print("Por si no tienes una sala, usas la mesa para platicar")
+    def poner_bebida(self):
+        print("Para que pongas las bebidas al final de curso")
 mesa_vidrio = Mesa("Fierro", "1.5m", "Moderno", "Pequeño", "Sala de estar", 
                    "0.75m", "Negro", "No portable", "Fuerte", "2")        

@@ -21,5 +21,17 @@ class Banco:
         print(f"Capital {self.capital}")
         print(f"Horario Atencion {self.horario_atencion}")
         print(f"Color Banco {self.color_banco}")
+
+    def pestamos(self):
+        print("realiza prestamos")
+    def afore(self):
+        print("realiza afores")
+    def transacciones(self):
+        ("realiza transacciones")
+    def inversiones(self):
+        print("te ayuda a realizar una inversion")
+    def depositos(self):
+        print("puedes realizar un deposito")
+
 acme= Banco("1000 clientes", "none", "none", "ACME Banking System", "Banco Acme",
             "1000", "True", "$1,000,000,000", "9am-19pm", "Verde Fosforecente")

@@ -21,5 +21,17 @@ class Silla:
         print(f"Tamaño {self.tamanio}")
         print(f"Peso {self.peso}")
         print(f"Diseño {self.disenio}")
+
+    def soporte(self):
+        print("Te puedes sentar")
+    def apoyo(self):
+        print("Pueder apoyar la esaplda")
+    def ajuste(self):
+        ("Su ajuste de altura permite que no te sientes en el suelo")
+    def resistencia(self):
+        print("Resiste tu peso")
+    def mover(self):
+        print("La puedes mover de lugar") 
+
 silla_cocina = Silla("Madera", "Alta", "No portable", "4", "Marron",
                      "0.9m", "No reclinable", "Grande", "5kg", "Clasico")
