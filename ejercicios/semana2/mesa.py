@@ -22,7 +22,7 @@ class Mesa:
         print(f"Soporte {self.soporte}")
         print(f"No. Patas {self.no_patas}")
 
-    def comer(self):
+    def hacer_tarea(self):
         print("Por si no tienes escritorio usas la mesa")
     def comer(self):
         print("Para que no comas en el piso usas la mesa")
